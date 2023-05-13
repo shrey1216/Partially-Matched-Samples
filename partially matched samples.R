@@ -1,4 +1,4 @@
-#function partially_matched() which implements both Kim's and Looney and Jones's statistical procedures
+#function partially_matched() which implements both Kim's and Looney and Jones's statistical procedures.
 partially_matched <- function(a,b, method = c("Kim", "Looney"), 
                               alternative = c("two.sided", "less", "greater"),
                               conf.level = 0.95) {
